@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.svg {
+  height: 20px;
+  width: 20px;
+}
+
+.list_container {
+  width: 400px;
+  border: 1px solid black;
+  margin: 100px auto;
+}
+
+.list_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list_content * {
+  margin: 5px;
+}
